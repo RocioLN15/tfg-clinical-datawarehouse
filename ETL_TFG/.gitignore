@@ -1,0 +1,7 @@
+HELP.md
+
+### VS ###
+.vs/
+bin/
+obj/
+*.user
