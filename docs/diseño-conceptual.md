@@ -2,7 +2,7 @@
 
 El diagrama conceptual muestra cómo se relacionan los hechos (cubos) con las dimensiones (tablas), sus jerarquías y el contenido de cada tabla. Los colores indican de qué tabla de la base de datos original procede cada valor.
 
-![Modelo conceptual](docs/conceptual-model.jpg)
+![Modelo conceptual](conceptual-model.jpg)
 
 **Cardinalidades.** Lo habitual es una relación 1:n entre dimensión y hecho, pero por cómo estaba construida la base de datos original, algunas dimensiones se relacionan con el hecho en m:n. Además, `AdmittedToICU` y `PatientUnitStay` están en 1:1, porque cada paciente tenía una única fila en las tablas que alimentan ese hecho.
 

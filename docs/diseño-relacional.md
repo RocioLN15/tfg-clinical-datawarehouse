@@ -2,7 +2,7 @@
 
 El modelo relacional parte del conceptual y define, para cada tabla, las claves primarias y foráneas, el tipo de cada atributo (INTEGER, VARCHAR, etc.) y si admite nulos.
 
-![Modelo relacional](docs/relational-model.svg)
+![Modelo relacional](relational-model.svg)
 
 **Notación del diagrama:** `P*` clave primaria, `F*` clave foránea, `PF*` clave que es primaria y foránea a la vez.
 
