@@ -1,0 +1,13 @@
+<div class="parent">
+    <div class="main">  	
+      <form #loginForm="ngForm" (ngSubmit)="login(loginForm)">
+        <h1>Login</h1>
+        <input type="text" ngModel name="username" id="username" placeholder="User name" required="">
+        <input type="password" ngModel name="password" id="password" placeholder="Password" required="">
+        <input type="submit" value="Login" class="b_login">
+        <div *ngIf="alert" class="alert alert-danger alert-dismissible">
+          Invalid username or password
+        </div>
+      </form>
+    </div>
+  </div>
