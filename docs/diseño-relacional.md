@@ -10,4 +10,4 @@ El modelo relacional parte del conceptual y define, para cada tabla, las claves 
 - **1:n:** en la tabla del lado "muchos". Por ejemplo, `AdmittedToICU` guarda `Unit_UnitID`, porque una unidad puede aparecer en muchos ingresos.
 - **m:n:** en una tabla intermedia cuya clave primaria es la combinación de las dos claves foráneas. Por ejemplo, `Allergy_AdmFact` (`Allergy_AllergyID` + `AdmittedToICU_AdmICUID`), que relaciona alergias con ingresos.
 
-El script de creación de tablas (DDL) se ha generado con Oracle SQL Developer Data Modeler y se ha adaptado para Microsoft SQL Server. El script está en [`database/`](database/create-DW.sql).
+El script de creación de tablas (DDL) se ha generado con Oracle SQL Developer Data Modeler y se ha adaptado para Microsoft SQL Server. El script está en [`database/`](../database/create-DW.sql).
