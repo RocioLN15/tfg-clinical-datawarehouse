@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Cubo_TFG", "Cubo_TFG\Cubo_TFG.dwproj", "{73FBCD9B-2A61-4EC0-B2AF-2FDDC59B6182}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73FBCD9B-2A61-4EC0-B2AF-2FDDC59B6182}.Development|Default.ActiveCfg = Development
+		{73FBCD9B-2A61-4EC0-B2AF-2FDDC59B6182}.Development|Default.Build.0 = Development
+		{73FBCD9B-2A61-4EC0-B2AF-2FDDC59B6182}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8AFA69D6-E197-461B-8D73-81A4E7B4F857}
+	EndGlobalSection
+EndGlobal

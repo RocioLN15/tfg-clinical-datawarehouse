@@ -1,0 +1,313 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="4ac567cc-7d97-4289-8ebb-7e12f0ed6177" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Admitted To ICU</ID>
+  <Name>Admitted To ICU</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1196" scrolltop="-4229" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7408" y="13917" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900180380100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="AdmittedToICU" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4516" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000a411000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_AdmittedToICU" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1196</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-4229</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="22aa6ca4-15a6-4cca-96a6-1734780b794c">
+    <DataSourceViewID>DW TFG</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="5f29416f-a942-47e7-8ebc-b1364329dfff">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="d2368691-d999-4ee1-b318-c4d8c3521b9d">
+      <ID>Adm ICUID</ID>
+      <Name>Adm ICUID</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4e732ad9-1de6-47e3-a053-6f61c00b69d5">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a34452be-78e3-4f9c-9e79-b7686eba977b">
+            <TableID>dbo_AdmittedToICU</TableID>
+            <ColumnID>AdmICUID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="462edfb7-8585-4e40-ae1b-26407bc42e58">
+          <AttributeID>Ward FK</AttributeID>
+          <Name>Ward FK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="4df3dc54-36e4-4142-be6d-93f4c090dab9">
+          <AttributeID>Admit Time FK</AttributeID>
+          <Name>Admit Time FK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7c354882-6af5-43fd-803c-539e4a9c0e31">
+          <AttributeID>Discharge Time FK</AttributeID>
+          <Name>Discharge Time FK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9f4666bf-1620-4982-b4d4-609f7df37370">
+          <AttributeID>Patient Unit Stay FK</AttributeID>
+          <Name>Patient Unit Stay FK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a3f6e01f-2d12-4980-a8d5-51dc09328673">
+          <AttributeID>Admit In Unit FK</AttributeID>
+          <Name>Admit In Unit FK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="942d526c-a47f-425d-8aff-7ac5225eae9e">
+          <AttributeID>Adm Diag FK</AttributeID>
+          <Name>Adm Diag FK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a7841655-4f31-4046-8a68-331fc3c031c3">
+          <AttributeID>Discharge From Hospital FK</AttributeID>
+          <Name>Discharge From Hospital FK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="181f828f-bbbc-4a8a-b0f1-25c6a6819e37">
+          <AttributeID>Unit FK</AttributeID>
+          <Name>Unit FK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7101e614-ec9e-4911-8ce7-8779075f013e">
+          <AttributeID>Admit In Hospital FK</AttributeID>
+          <Name>Admit In Hospital FK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="03c99b03-6138-4bec-be7c-ab65f4bfc0d9">
+          <AttributeID>Discharge From Unit FK</AttributeID>
+          <Name>Discharge From Unit FK</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="36afe915-d3e6-4af6-bfd6-4c08f550ae10">
+      <ID>Ward FK</ID>
+      <Name>Ward FK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e6912eb4-a66e-4f24-ba0e-d48ff1d0a7af">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0a0465fe-958c-4bd5-bdf9-e31b2b881be1">
+            <TableID>dbo_AdmittedToICU</TableID>
+            <ColumnID>WardFK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1ea23739-e615-4573-ac1d-b464ed8d8d62">
+      <ID>Admit Time FK</ID>
+      <Name>Admit Time FK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d35201f6-dfc0-4e7a-8a5e-f9ce77d0f006">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6a1be6b3-6ae9-4cb7-b14c-485dc3b7224d">
+            <TableID>dbo_AdmittedToICU</TableID>
+            <ColumnID>AdmitTimeFK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8934778b-8baf-4856-ba59-efaf7b0a6eb5">
+      <ID>Discharge Time FK</ID>
+      <Name>Discharge Time FK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="252fb0f3-4ecd-4d42-9bcc-bbababefe619">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1b00ccfe-d11e-4952-8f4d-56bf3366c4a4">
+            <TableID>dbo_AdmittedToICU</TableID>
+            <ColumnID>DischargeTimeFK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="21149698-ac34-4ce2-aca6-cce684599ca1">
+      <ID>Patient Unit Stay FK</ID>
+      <Name>Patient Unit Stay FK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="518d6b04-2cf4-4530-9dcc-604adefd4494">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4aa9c073-e2c1-4050-9333-91e1f6fdf40f">
+            <TableID>dbo_AdmittedToICU</TableID>
+            <ColumnID>PatientUnitStayFK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8bf1990d-68a2-40c0-90f6-aa147a8f2ee9">
+      <ID>Admit In Unit FK</ID>
+      <Name>Admit In Unit FK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e9df7ed4-d424-4d64-a06a-3ac28a1d8147">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="70cd8a62-3fe8-4a00-9061-dd299f9e86c4">
+            <TableID>dbo_AdmittedToICU</TableID>
+            <ColumnID>AdmitInUnitFK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b3638fe7-5b82-479e-9a39-5a7acd5b6b5a">
+      <ID>Adm Diag FK</ID>
+      <Name>Adm Diag FK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a80c07df-2ff4-46b4-bafe-f59e1c953f78">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="de3bd562-b2ca-44fd-a612-324669348173">
+            <TableID>dbo_AdmittedToICU</TableID>
+            <ColumnID>AdmDiagFK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="572acf92-b7eb-4b8d-8c8d-c35e8cfb6f3d">
+      <ID>Discharge From Hospital FK</ID>
+      <Name>Discharge From Hospital FK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="62ca6ac4-df29-4d03-b176-01e1e56a704e">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7fb5ced2-bfb8-4072-b35c-26629df19bb1">
+            <TableID>dbo_AdmittedToICU</TableID>
+            <ColumnID>DischargeFromHospitalFK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9adcbb67-0f96-4876-9612-a88d17925078">
+      <ID>Unit FK</ID>
+      <Name>Unit FK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="92bc5bcb-2e7a-4c2f-a239-20a51cf0d702">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4b5fc050-45db-45d3-ab07-a533d36dc62e">
+            <TableID>dbo_AdmittedToICU</TableID>
+            <ColumnID>UnitFK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="138c6f88-c387-4dd4-a1ee-946946d316fd">
+      <ID>Admit In Hospital FK</ID>
+      <Name>Admit In Hospital FK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="55c5a070-3ff0-40d9-9f0a-0503cfe72f21">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8b8d9ddb-4d26-4dab-ae1c-fcfa41456a40">
+            <TableID>dbo_AdmittedToICU</TableID>
+            <ColumnID>AdmitInHospitalFK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4b8687c6-462e-4965-9764-5ed5f47c3f60">
+      <ID>Discharge From Unit FK</ID>
+      <Name>Discharge From Unit FK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="510df5e2-862d-42b0-b8e2-721953ebc294">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8ac1d01d-cd3e-402d-a9b6-73df53f71a10">
+            <TableID>dbo_AdmittedToICU</TableID>
+            <ColumnID>DischargeFromUnitFK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
