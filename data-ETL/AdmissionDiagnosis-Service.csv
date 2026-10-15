@@ -1,0 +1,238 @@
+AdmissionDiagnosis:Service
+Unknown:unknown
+Abdomen only trauma:burns/trauma
+Abdomen/extremity trauma:burns/trauma
+Abdomen/multiple trauma:burns/trauma
+Ablation or mapping of cardiac conduction pathway:cardiovascular
+Abscess, neurologic:neurologic
+Acid-base/electrolyte disturbance:renal
+Adrenalectomy:endocrine
+Alcohol withdrawal:toxicology
+Anaphylaxis:general
+Anemia:hematology
+Aneurysm, abdominal aortic:cardiovascular
+Aneurysm, abdominal aortic; with rupture:cardiovascular
+Aneurysm, dissecting aortic:cardiovascular
+Aneurysm, thoracic aortic:cardiovascular
+Aneurysm/pseudoaneurysm, other:cardiovascular
+Angina, stable (asymp or stable pattern of symptoms w/meds):cardiovascular
+Angina, unstable (angina interferes w/quality of life or meds are tolerated poorly):cardiovascular
+Aortic and Mitral valve replacement:cardiovascular
+Aortic valve replacement (isolated):cardiovascular
+Apnea, sleep:pulmonary
+Appendectomy:gastrointestinal
+ARDS-adult respiratory distress syndrome, non-cardiogenic pulmonary edema:pulmonary
+Arrest, respiratory (without cardiac arrest):pulmonary
+Asthma:pulmonary
+Atelectasis:pulmonary
+Bleeding, GI from esophageal varices/portal hypertension:gastrointestinal
+Bleeding, GI-location unknown:gastrointestinal
+Bleeding, lower GI:gastrointestinal
+Bleeding, upper GI:gastrointestinal
+Bleeding-other GI, surgery for:gastrointestinal
+Bleeding-upper GI, surgery for:gastrointestinal
+Blood transfusion reaction:hematology
+Burr hole placement:neurologic
+CABG alone, coronary artery bypass grafting:cardiovascular
+CABG redo with other operation:cardiovascular
+CABG with aortic valve replacement:cardiovascular
+CABG with mitral valve repair:cardiovascular
+CABG with other operation:cardiovascular
+Cancer, esophageal:oncology
+Cancer, oral/sinus, surgery for:oncology
+Cancer, other GI:oncology
+Cancer, pancreatic:oncology
+Cancer-colon/rectal, surgery for (including abdominoperineal resections):oncology
+Cancer-other GI tract, surgery for (i.e., hepatoma, gallbladder etc.):oncology
+Cancer-small intestinal, surgery for:oncology
+Cardiac arrest (with or without respiratory arrest; for respiratory arrest see Respiratory System):cardiovascular
+Cardiomyopathy:cardiovascular
+Cardiovascular medical, other:cardiovascular
+Cardiovascular surgery, other:cardiovascular
+Cellulitis and localized soft tissue infections:infectious diseases
+Cellulitis and localized soft tissue infections, surgery for:infectious diseases
+Cesarean section:general
+Chest pain, atypical (noncardiac chest pain):general
+Chest pain, epigastric:general
+Chest pain, musculoskeletal:general
+Chest pain, unknown origin:general
+Chest thorax only trauma:burns/trauma
+Chest/abdomen trauma:burns/trauma
+Chest/extremity trauma:burns/trauma
+Chest/face trauma:burns/trauma
+Chest/pelvis trauma:burns/trauma
+Chest/spinal trauma:burns/trauma
+CHF, congestive heart failure:cardiovascular
+Cholangitis:gastrointestinal
+Cholecystectomy/cholangitis, surgery for (gallbladder removal):gastrointestinal
+Coagulopathy:hematology
+Coma/change in level of consciousness (for hepatic see GI, for diabetic see Endocrine, if related to cardiac arrest, see CV):neurologic
+Complications of prev. peripheral vasc. surgery,surgery for (i.e.ligation of bleeder, exploration and evacuation of hematoma, debridement, pseudoaneurysms, clots, fistula, etc.):cardiovascular
+Complications of previous GI surgery; surgery for (anastomotic leak, bleeding, abscess, infection, dehiscence, etc.):gastrointestinal
+Complications of previous open heart surgery (i.e. bleeding, infection etc.):cardiovascular
+Complications of previous open-heart surgery, surgery for (i.e. bleeding, infection, mediastinal rewiring,leaking aortic graft etc.):cardiovascular
+Cosmetic surgery (all):general
+Cranioplasty and complications from previous craniotomies:neurologic
+CVA, cerebrovascular accident/stroke:neurologic
+Cystectomy for neoplasm:oncology
+Defibrillator, automatic implantable cardiac; insertion of:cardiovascular
+Diabetic hyperglycemic hyperosmolar nonketotic coma (HHNC):endocrine
+Diabetic ketoacidosis:endocrine
+Diverticular disease:gastrointestinal
+Diverticular disease, surgery for:gastrointestinal
+Drug withdrawal:toxicology
+Efffusion, pericardial:cardiovascular
+Effusions, pleural:pulmonary
+Embolectomy (with general anesthesia):cardiovascular
+Embolectomy (without general anesthesia):cardiovascular
+Embolus, pulmonary:pulmonary
+Emphysema/bronchitis:pulmonary
+Encephalitis:neurologic
+Encephalopathies (excluding hepatic):neurologic
+Encephalopathy, hepatic:gastrointestinal
+Endarterectomy (other vessels):cardiovascular
+Endarterectomy, carotid:cardiovascular
+Esophageal surgery, other:gastrointestinal
+Extremity only trauma:burns/trauma
+Extremity only trauma, surgery for:burns/trauma
+Extremity/multiple trauma:burns/trauma
+Extremity/multiple trauma, surgery for:burns/trauma
+Face only trauma:burns/trauma
+Facial surgery (if related to trauma, see Trauma):burns/trauma
+Fistula/abscess, surgery for (not inflammatory bowel disease):general
+Fracture-pathological, non-union, non-traumatic, for fractures due to trauma see Trauma:burns/trauma
+Fusion-spinal/Harrington rods:surgery
+Gastrostomy:gastrointestinal
+Genitourinary medical, other:renal
+Genitourinary surgery, other:renal
+GI medical, other:gastrointestinal
+GI obstruction:gastrointestinal
+GI obstruction, surgery for (including lysis of adhesions):gastrointestinal
+GI perforation/rupture:gastrointestinal
+GI perforation/rupture, surgery for:gastrointestinal
+GI surgery, other:gastrointestinal
+Graft for dialysis, insertion of:renal
+Graft, all other bypass (except renal):cardiovascular
+Graft, aorto-femoral bypass:cardiovascular
+Graft, femoral-popliteal bypass:cardiovascular
+Graft, removal of infected vascular:cardiovascular
+Head only trauma:burns/trauma
+Head/abdomen trauma:burns/trauma
+Head/chest trauma:burns/trauma
+Head/extremity trauma:burns/trauma
+Head/face trauma:burns/trauma
+Head/multiple trauma:burns/trauma
+Head/spinal trauma:burns/trauma
+Heart transplant:transplant
+Heat exhaustion/stroke:general
+Hematoma subdural, surgery for:neurologic
+Hematoma, subdural:neurologic
+Hematoma-epidural, surgery for:neurologic
+Hematomas:general
+Hemorrhage (for gastrointestinal bleeding GI-see GI system) (for trauma see Trauma):general
+Hemorrhage, intra/retroperitoneal:general
+Hemorrhage/hematoma, intracranial:neurologic
+Hemorrhage/hematoma-intracranial, surgery for:neurologic
+Hemorrhage/hemoptysis, pulmonary:pulmonary
+Hepatic failure, acute:gastrointestinal
+Hernia-hiatal, esophageal surgery for:gastrointestinal
+Herniorrhaphy:gastrointestinal
+Hip replacement, total (non-traumatic):surgery
+Hypertension, uncontrolled (for cerebrovascular accident-see Neurological System):cardiovascular
+Hypoglycemia:endocrine
+Hypothermia:general
+Hypovolemia (including dehydration, Do not include shock states):general
+Hysterectomy for cancer with or without lymph node dissection:oncology
+Infarction, acute myocardial (MI):cardiovascular
+Infection/abscess, other surgery for:general
+Inflammatory bowel disease, surgery for:gastrointestinal
+Kidney transplant:transplant
+Knee replacement, total (non-traumatic):surgery
+Laminectomy/spinal cord decompression (excluding malignancies):surgery
+Lymphoma, non-Hodgkins:oncology
+Lymphoma, non-Hodgkins, surgery for (including staging):oncology
+Meningitis:infectious diseases
+Metabolic/endocrine medical, other:endocrine
+MI admitted > 24 hrs after onset of ischemia:cardiovascular
+Mitral valve repair:cardiovascular
+Mitral valve replacement:cardiovascular
+Musculoskeletal medical, other:general
+Myasthenia gravis:neurologic
+Neoplasm, neurologic:neurologic
+Neoplasm-cranial, surgery for (excluding transphenoidal):neurologic
+Nephrectomy (other reasons):renal
+Neurologic medical, other:neurologic
+Neuromuscular medical, other:neurologic
+Neutropenia:hematology
+Nontraumatic coma due to anoxia/ischemia:neurologic
+Obesity-morbid, surgery for:general
+Obstruction due to nephrolithiasis, surgery for (with or without ileal-conduit):renal
+Obstruction/other, surgery for (with or without ileal conduit):renal
+Obstruction-airway (i.e., acute epiglottitis, post-extubation edema, foreign body, etc):pulmonary
+Orthopedic surgery, other:surgery
+Overdose, alcohols (bethanol, methanol, ethylene glycol):toxicology
+Overdose, analgesic (aspirin, acetaminophen):toxicology
+Overdose, antidepressants (cyclic, lithium):toxicology
+Overdose, other toxin, poison or drug:toxicology
+Overdose, sedatives, hypnotics, antipsychotics, benzodiazepines:toxicology
+Overdose, street drugs (opiates, cocaine, amphetamine):toxicology
+Pancreatitis:gastrointestinal
+Pancytopenia:hematology
+Pelvis/extremity trauma:burns/trauma
+Pelvis/hip trauma:burns/trauma
+Pelvis/multiple trauma:burns/trauma
+Pericarditis:cardiovascular
+Peritonitis:gastrointestinal
+Pneumonia, aspiration:pulmonary
+Pneumonia, bacterial:pulmonary
+Pneumonia, other:pulmonary
+Pneumonia, viral:pulmonary
+Pneumothorax:pulmonary
+Pre-eclampsia/eclampsia:general
+Renal bleeding:renal
+Renal failure, acute:renal
+Renal infection/abscess:renal
+Renal obstruction:renal
+Respiratory - medical, other:pulmonary
+Respiratory surgery, other:pulmonary
+Restrictive lung disease (i.e., Sarcoidosis, pulmonary fibrosis):pulmonary
+Rhythm disturbance (atrial, supraventricular):cardiovascular
+Rhythm disturbance (conduction defect):cardiovascular
+Rhythm disturbance (ventricular):cardiovascular
+Seizures (primary-no structural brain disease):neurologic
+Sepsis, cutaneous/soft tissue:infectious diseases
+Sepsis, GI:infectious diseases
+Sepsis, other:infectious diseases
+Sepsis, pulmonary:infectious diseases
+Sepsis, renal/UTI (including bladder):infectious diseases
+Sepsis, unknown:infectious diseases
+Shock, cardiogenic:cardiovascular
+Sickle cell crisis:hematology
+Skin surgery, other:general
+Spinal cord surgery, other:surgery
+Spinal/extremity trauma:burns/trauma
+Spinal/multiple trauma:burns/trauma
+Splenectomy:surgery
+Stereotactic procedure:neurologic
+Subarachnoid hemorrhage/intracranial aneurysm:neurologic
+Subarachnoid hemorrhage/intracranial aneurysm, surgery for:neurologic
+Tamponade, pericardial:cardiovascular
+Thoracotomy for benign tumor (i.e. mediastinal chest wall mass, thymectomy):pulmonary
+Thoracotomy for lung cancer:pulmonary
+Thoracotomy for pleural disease:pulmonary
+Thoracotomy for thoracic/respiratory infection:pulmonary
+Thrombectomy (with general anesthesia):cardiovascular
+Thrombosis, vascular (deep vein):cardiovascular
+Thrombus, arterial:cardiovascular
+Toxicity, drug (i.e., beta blockers, calcium channel blockers, etc.):toxicology
+Tracheostomy:pulmonary
+Transphenoidal surgery:neurologic
+Trauma medical, other:burns/trauma
+Tricuspid valve surgery:cardiovascular
+TURP, transurethral prostate resection for benign prostatic hypertrophy:surgery
+Ulcer disease, peptic:gastrointestinal
+Vascular medical, other:cardiovascular
+Vascular surgery, other:surgery
+Vena cava filter insertion:surgery
+Ventriculostomy:neurologic
+Weaning from mechanical ventilation (transfer from other unit or hospital only):pulmonary
