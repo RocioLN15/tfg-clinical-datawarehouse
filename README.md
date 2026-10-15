@@ -43,10 +43,24 @@ flowchart LR
 | Frontend | Angular |
 
 ## Resultado
+<div align="right">
+  <img src="/docs/login.png" alt="Imagen login"><br>
+  <sub>Pantalla de inicio de sesión</sub>
+</div>
 
-![Pantalla de inicio de sesión](/docs/login.png)
-![Informe del Gerente](/docs/informe-gerente.png)
-![Informe del Jefe del servicio cardiovascular](/docs/informe-jefe.png)
+<br>
+
+<div align="right">
+    <img src="/docs/informe-gerente.png" alt="Imagen gerente"><br>
+    <sub>Pantalla del Gerente después de iniciar sesión</sub>
+</div>
+
+<br>
+
+<div align="right">
+  <img src="/docs/informe-jefe.png" alt="Imagen jefe cardiovascular"><br>
+  <sub>Pantalla del Jefe del servicio Cardiovascular</sub>
+</div>
 
 ## Estructura del repositorio
 
@@ -119,7 +133,7 @@ Para replicarlo:
 ### 2. Almacén de datos
 
 1. Crear una base de datos nueva llamada `DW_TFG`.
-2. Ejecutar en ella el script [`create-DW.sql`](/database/create-DW.sql).
+2. Ejecutar en ella el script [`create-DW`](/database/create-DW.sql).
 
 ### 3. Ficheros CSV para el ETL
 
@@ -147,7 +161,7 @@ Los ficheros resultantes están en [`data-ETL`](/data-ETL).
 
 ### 6. Aplicación web
 
-**Base de datos de usuarios.** Crear una base de datos nueva en SQL Server y ejecutar el script [`create-users-DB`](create-users-DB.sql). Dicho script crea una única tabla `usuario` con las columnas `id`, `firstname`, `lastname`, `password`, `role` y `username`. Y añade tres usuarios para la demostración de la web:
+**Base de datos de usuarios.** Crear una base de datos nueva en SQL Server y ejecutar el script [`create-users-DB`](/database/create-users-DB.sql). Dicho script crea una única tabla `usuario` con las columnas `id`, `firstname`, `lastname`, `password`, `role` y `username`. Y añade tres usuarios para la demostración de la web:
 
 | Username | Password | Role | Acceso |
 |---|---|---|---|
@@ -200,7 +214,7 @@ Se abrirá en `http://localhost:4200`.
 ## Licencias
 
 - **Código** (`ETL_TFG`, `Cubo_TFG`, `Backend_TFG`, `Frontend_TFG` y scripts propios): licencia MIT, ver [`LICENSE`](LICENSE).
-- **Datos derivados** (`data-ETL`): [Open Data Commons Open Database License v1.0 (ODbL)](https://opendatacommons.org/licenses/odbl/1-0/), la misma que la de los datos originales. Si se redistribuyen o se adaptan, hay que citar la fuente y mantener esa licencia.
+- **Datos derivados** (`data-ETL`): [Open Data Commons Open Database License v1.0 (ODbL)](https://opendatacommons.org/licenses/odbl/1-0/), ver [`LICENSE`](/data-ETL/LICENSE.txt), la misma que la de los datos originales. Si se redistribuyen o se adaptan, hay que citar la fuente y mantener esa licencia.
 - **Scripts de creación de la base de datos de origen:** adaptados del repositorio de código de eICU; consultar la licencia allí.
 
 ## Referencias
