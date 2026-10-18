@@ -2,6 +2,8 @@
 
 > Trabajo de Fin de Grado · Ingeniería Informática (Sistemas de Información) · Universidad de Málaga
 
+[![en](https://img.shields.io/badge/lang-en-red.svg)](README.en.md)
+
 Implementación de un *datawarehouse* a partir de un conjunto de datos de hospitalización en UCIs, con su proceso ETL, un cubo multidimensional, informes en Power BI y una aplicación web con acceso por roles.
 
 ## Resumen
@@ -51,14 +53,14 @@ flowchart LR
 <br>
 
 <div align="right">
-    <img src="/docs/informe-gerente.png" alt="Imagen gerente"><br>
+    <img src="/docs/report-manager.png" alt="Imagen gerente"><br>
     <sub>Pantalla del Gerente después de iniciar sesión</sub>
 </div>
 
 <br>
 
 <div align="right">
-  <img src="/docs/informe-jefe.png" alt="Imagen jefe cardiovascular"><br>
+  <img src="/docs/report-cardiovascular.png" alt="Imagen jefe cardiovascular"><br>
   <sub>Pantalla del Jefe del servicio Cardiovascular</sub>
 </div>
 
@@ -111,7 +113,6 @@ El script de creación de tablas (DDL) se generó con Oracle SQL Developer Data 
 - Microsoft Visual Studio Community 2019 con SQL Server Data Tools y las extensiones de proyectos de Integration Services y de Analysis Services.
 - Java 17 y un IDE para el backend.
 - Node.js y Angular CLI para el frontend.
-- Power BI Desktop, solo para abrir los informes.
 
 Orden de ejecución: [1. BD de origen](#1-base-de-datos-de-origen) → [2. Almacén](#2-almacén-de-datos) → [3. CSV](#3-ficheros-csv-para-el-etl) → [4. ETL](#4-procesos-etl) → [5. Cubo](#5-cubo-multidimensional) → [6. Web](#6-aplicación-web).
 
@@ -169,6 +170,9 @@ Los ficheros resultantes están en [`data-ETL`](/data-ETL).
 | `gerente` | demo-gerente-2026 | `GERENTE` | Informe con todos los datos del almacén |
 | `jefe` | demo-jefe-2026 | `JEFE_CARDIOVASCULAR` | Informe con solo los datos de su servicio (Cardiovascular) |
 
+> *Gerente* se refiere al gerente del hospital \
+> *Jefe Cardiovascular* se refiere al jefe del servicio Cardiovascular
+
 Las contraseñas están guardadas como hash BCrypt, el formato que espera BCryptPasswordEncoder de Spring Security.
 
 **Backend.**
@@ -209,7 +213,6 @@ Se abrirá en `http://localhost:4200`.
 - Los datos son la versión demo de eICU, un subconjunto de la base de datos completa.
 - Los CSV de `data-ETL` incluyen correcciones manuales.
 - La relación entre diagnósticos de ingreso y servicios se generó con ayuda de Copilot (ver [modelo conceptual](#modelo-conceptual)).
-- Los informes de Power BI dependen del cubo desplegado en una instancia local de Analysis Services, por eso se incluyen capturas.
 
 ## Licencias
 
